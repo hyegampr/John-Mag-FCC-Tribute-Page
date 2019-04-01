@@ -1,0 +1,19 @@
+// !! IMPORTANT README:
+
+// You may add additional external JS and CSS as needed to complete the project, however the current external resource MUST remain in place for the tests to work. BABEL must also be left in place. 
+document.getElementsByTagName("h1")[0].style.fontSize = "28px";
+
+document.getElementsByTagName("h2")[0].style.fontSize = "20px";
+
+
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Magdesian Brother Tribute Page</title>
+</head>
+<body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<img src="magdesianlogo.jpg" id="img" class="logo">
