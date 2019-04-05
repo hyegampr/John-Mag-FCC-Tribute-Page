@@ -15,11 +15,11 @@ nav {
 	background-color: rgb(200, 190, 170);
 }
 h1 {
-	text-align: right;
+	text-align: left;
 }
 h2 {
 	background-color: rgb(200, 190, 170);
-	text-align: right;
+	text-align: left;
 }
 /*
 Css uses Javascript asterisk comments, just learned this.
@@ -30,32 +30,51 @@ Need to get this all in order. colors being used are hsl colors, can try rgb col
 }
 
 .logo {
-	width: 300px;
+	width: 200px;
 	height: 200px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 300px;
+	max-width: 200px;
 }
 
 .mag{
-	width: 300px;
+	width: 200px;
 	height: 200px;
 	display: block;
-	border-radius: 90%;
+	border-radius: 20%;
 	margin: 0 auto;
-	max-width: 300px;
+	max-width: 200px;
+	align-self: right;
 }
 #tribute-info {
 	background-color: rgb(200, 190, 170);
-	text-align: right;
+	text-align: justify;
+	font-size: x-large;
 }
 
 .logo-container {
-	max-width: 300px;
+	max-width: 200px;
 	margin: 0 auto;
 	float: center;
-	border-radius: 50%;
+	border-radius: 20%;
 	position: center;
 	height: auto;
+}
+
+#img-caption{
+	text-align: center;
+	font-size: x-large;
+}
+
+.advertisement{
+	width: 350px;
+	height: auto;
+	border-radius: 20%;
+}
+
+.factory{
+	width: 300px;
+	height: auto;
+	border-radius: 20%;
 }
