@@ -15,5 +15,5 @@ document.getElementsByTagName("h2")[0].style.fontSize = "20px";
 	<title>Magdesian Brother Tribute Page</title>
 </head>
 <body>
-	<!—-<script src="https://cdn.freecodecamp.org/testable.js"></script>—->
+	
 	<img src="magdesianlogo.jpg" id="img" class="logo">
